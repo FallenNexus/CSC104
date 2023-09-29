@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- Hope Thoms 
+        CSC102-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UAT Space Page</title>
+    <script src = "code.js"></script>
+    <link rel ="stylesheet" href="stylesheet.css">
+    /* above is how I set the background color, and fonts; to add comments in here, they have to be in this style since its css */
+</style>
+</head>
+<body> <!--End the last thing with the slashes to make these not weird-->
+    <ul>
+        <li><a class="active" href="Default.html">Home</a></li>
+        <li><a href="spacepage.html">Space Page</a></li>
+        <li><a href="SpaceData.html">Space Data</a></li>
+        <li><a href="https://hope-thoms.wixsite.com/hope-thoms">Boards</a></li>
+      </ul>
+      
+    <div class = "bgimage">
+        <div class="hero">
+    
+    <h1>UAT Space Page</h1> <!-- Title header shown on the page-->   
+    <img src="UATspaceLogo.jpg" alt="UAT Space Logo" /> <!--Image on the page. alt is the image description like for screen readers-->
+    <br/> <!--br is a line break-->
+    <p>Insert text once I have acquired knowledge here</p> <!--paragraph text shown on the page-->
+    <input type="button" value="Click me!" onclick="alert('You took demands from a computer... That is sad');" /> 
+    <!--the pop up thing that yells at you like canvas when it wont upload-->
+    <br/>
+    <br/>
+    <!--pulls the start and stop functions from JavaScript and makes buttons that can be clicked-->
+    <input id="btnStart" type="button" value="Launch!" onclick="startButtonClick();"  />
+    <input id="btnStop" type="button" value="Abort!" onclick="stopButtonClick();"  />
+    <p> <!--This will show the current countdown number and log in information that has been input-->
+        Welcome, <span id = "userNameBadge"></span>
+        <p>
+        Countdown: <span id="countdown"></span>    
+    </p>
+</div>
+</body>
+
+<script>
+//this gets the user input to be displayed by the code above.
+var userInfo = getUserInput();
+document.getElementById("userNameBadge").innerHTML = userInfo;
+
+//playSound("watermarked_Neon_Beach_Dream_instrumental_2_10.mp3");
+//above is the JavaScript music called in the html, also commented out since I saw no reason to have two on the page.
+</script>
+
+<audio controls>
+    <source src="watermarked_Neon_Beach_Dream_instrumental_2_10.mp3" type="audio/mpeg"
+    Your browser does not support audio
+
+</audio>
+<!--above is the entire code to put the music on the code. I went with this since it was more likely to work-->
+
+
+</html>
