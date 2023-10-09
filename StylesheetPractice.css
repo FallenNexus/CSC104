@@ -1,0 +1,39 @@
+/*The section applied to the whole page unless otherwise modified. Using the background blends to change the opacity since this is the only way I
+could get it to work.*/
+body{
+    position: static;
+    background-image: url("LetheRiverAIARTTHISONE.png");
+    background-color: #0000007f;
+    background-blend-mode: saturation;
+    background-position: top;
+
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*The setting for the h1 text (aka the title)*/
+h1{
+    color: #1f7177;
+}
+
+/*The setting for the h2 text (aka the author note)*/
+h2{
+    color: #ff0000a2;
+}
+
+/*The setting for the h3 text (aka all the scene descriptions)*/
+h3{
+    color: #78baca;
+}
+
+/*The setting for the p text (aka literally everything that isn't italicized or a header)*/
+p{
+    color: #ffffffc2;
+    font-size: larger;
+}
+
+/*The setting for the i text (aka everything italicized)*/
+ i{
+    color: #0a696f;
+    font-size: large;
+    font-weight: 600;
+ }   
