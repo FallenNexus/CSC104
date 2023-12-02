@@ -10,17 +10,17 @@ body{
     font-family: 'Times New Roman', Times, serif;
 }
 
-/*The setting for the h1 text (aka the title)*/
+/*The setting for the h1 text */
 h1{
     color: #1f7177;
 }
 
-/*The setting for the h2 text (aka the author note)*/
+/*The setting for the h2 text */
 h2{
     color: #ff0000a2;
 }
 
-/*The setting for the h3 text (aka all the scene descriptions)*/
+/*The setting for the h3 text */
 h3{
     color: #78baca;
 }
