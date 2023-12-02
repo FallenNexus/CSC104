@@ -2,9 +2,9 @@
 could get it to work.*/
 body{
     position: static;
-    background-image: url("LetheRiverAIARTTHISONE.png");
-    background-color: #0000007f;
-    background-blend-mode: saturation;
+    background-image: url("FemInspire BG WIP.png");
+    /*background-color: #0000007f;
+    background-blend-mode: saturation;*/
     background-position: top;
 
     font-family: 'Times New Roman', Times, serif;
@@ -12,7 +12,7 @@ body{
 
 /*The setting for the h1 text */
 h1{
-    color: #1f7177;
+    color: #623aff;
 }
 
 /*The setting for the h2 text */
