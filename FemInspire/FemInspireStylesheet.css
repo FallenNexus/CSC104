@@ -12,7 +12,8 @@ body{
 
 /*The setting for the h1 text */
 h1{
-    color: #623aff;
+  text-align: center;  
+  color: #623aff;
 }
 
 /*The setting for the h2 text */

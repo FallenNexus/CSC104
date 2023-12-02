@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FemInspire</title>
     <link rel="stylesheet" href="FemInspireStylesheet.css">
+    <link rel="JavaScript" href="Jcode.js">
 </style>
 </head>
 <body> <!--End the last thing with the slashes to make these not weird-->
@@ -19,28 +20,43 @@
         <li><a href="MentorshipPage.html">Mentorship</a></li>
       </ul>
     
-    <!--Learned how to do this here: https://www.w3schools.com/css/css_positioning.asp-->
+    <!--Learned how to do this here: https://www.w3schools.com/css/-->
     <style>
         div.relative {
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 40%;
+            display: position;
+            margin-left: 40%;
+            margin-right: 50%;
             }
     </style>
-    <h1>Welcome to FemInspire!</h1> <!-- Title header shown on the page--> 
+    <h1>Welcome to FemInspire!</h1> <!--Title header shown on the page--> 
     <div class="relative">
-        <img src="FemInspire Logo WIP 250.png" alt="FemInspire Logo" style="width: 40%;" /> <!--Image on the page. alt is the image description like for screen readers-->
+        <img src="FemInspire Logo WIP 250.png" alt="FemInspire Logo"/> <!--Image on the page. alt is the image description like for screen readers-->
     </div>
-    <p>Insert text once I have figured out what to put here</p> <!--paragraph text shown on the page-->
-    <input type="button" value="Click me!" onclick="alert('You took demands from a computer... That is sad');" /> 
-    <!--the pop up thing that yells at you like canvas when it wont upload-->
-    <br/>
-    <br/>
-    <p> <!--This is just chiling from the code I copied from CSC102's site-->
+    <p>Welcome, log in below</p> <!--paragraph text shown on the page-->
+    <br>
+    <form>
+        <label for="fname">First name:</label>
+        <br>
+        <input type="text" id="fname" name="fname" value="">
+        <br>
+        <label for="lname">Last name:</label>
+        <br>
+        <input type="text" id="lname" name="lname" value="">
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+      </form>
 
-    </p>
-</div>
-</body>
+    <p> <!--This will show the current countdown number and log in information that has been input-->
+        Welcome, <span id = "userNameBadge"></span>
+    <p>
+    </body>
+<!--https://www.w3schools.com/js/js_validation.asp-->   
+<script>
+      //this gets the user input to be displayed by the code above.
+      var UserInfo = GetUserInput();
+      document.getElementById("UserNameBadge").innerHTML = UserInfo;
+
+</script>
 
 </html>
