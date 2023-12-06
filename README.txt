@@ -41,5 +41,9 @@ LetheRiverAIArtFIXED.png
 README.txt
 StylesheetPractice.css
 
+Stylesheet functions:
+Sets the background image
+Styles fonts for h1, h2, h3, p, and I
+Styles navbars (WIP)
 
 >>>>>>> main
