@@ -1,21 +1,45 @@
 <<<<<<< HEAD
-Experiment with the different properties that affect text display, and various text formats to create effective and interesting page design. You can use for reference the constitution.html and style.css posted, which is just a plain black and white text version using some very basic CSS.
+File List:
 
-Be creative and come up with the formatting (text, background, spacing) to make this jump out and catch a viewer's attention.
+FemInspire Folder
+  FemInspire BG WIP.png
+  FemInspire Logo WIP 250.png
+  FemInspire Logo WIP.png
+  FemInspire.html
+  FemInspireStylesheet.css
+  Jcode.js
+  MentorshipPage.html
+  MessagesPage.html
+  NotificationsPage.html
+  ProfilePage.html
 
-Files for this assignment:
+Lethe's Embrace Folder
+  Lethe'sEmbrace.html
+  LetheRiverAIARTTHISONE.png
+  StylesheetPrctice.css
+  the-story-begins-pecan-pie-main-version-02-07-3691.mp3
 
+OldSpacePage Folder
+  Default.html
+  SpaceBackground.jpg
+  SpaceData.html
+  UATspaceLogo.jpg
+  code.js
+  spacepage.html
+  watermarked_Neon_Beach_Dream_instrumental_2_10.mp3
+
+.gitattributes
+727933_The Lethe river in the underworld in Greek mytholo_xl-1024-v1-0.png
+CSScheck.png
+HTMLchecker.png
+Intro
+Intro.html
 Lethe'sEmbrace.html
-StylesheetPractice.css
 LetheRiverAIARTTHISONE.png
-=======
-Experiment with the different properties that affect text display, and various text formats to create effective and interesting page design. You can use for reference the constitution.html and style.css posted, which is just a plain black and white text version using some very basic CSS.
-
-Be creative and come up with the formatting (text, background, spacing) to make this jump out and catch a viewer's attention.
-
-Files for this assignment:
-
-Lethe'sEmbrace.html
+LetheRiverAIArt.png
+LetheRiverAIArtFIXED.png
+README.txt
 StylesheetPractice.css
-LetheRiverAIARTTHISONE.png
+
+
 >>>>>>> main
