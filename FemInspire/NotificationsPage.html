@@ -27,13 +27,74 @@
     <br/> <!--br is a line break-->
     <p>Insert text once I have figured out what to put here</p> <!--paragraph text shown on the page-->
     <input type="button" value="Click me!" onclick="alert('You took demands from a computer... That is sad');" /> 
-    <!--the pop up thing that yells at you like canvas when it wont upload-->
-    <br/>
-    <br/>
-    <p> <!--This is just chiling from the code I copied from CSC102's site-->
+    <!--Sticky navbar I learned how to make here: https://www.w3schools.com/howto/howto_js_navbar_sticky.asp-->
+    <div id="navbar">
+        <a href="FemInspire.html">Home</a>
+        <a href="ProfilePage.html">Profile</a>
+        <a href="NotificationsPage.html">Notifications</a>
+        <a href="MessagesPage.html">Messages</a>
+        <a href="MentorshipPage.html">Mentorship</a>
+    </div>
+    
+    <p>Welcome, log in below
+    </p> <!--paragraph text shown on the page-->
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <!--<form>
+        <label for="fname">First name:</label>
+        <br>
+        <input type="text" id="fname" name="fname" value="">
+        <br>
+        <label for="lname">Last name:</label>
+        <br>
+        <input type="text" id="lname" name="lname" value="">
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+      </form>
+    -->
+    <p> <!--This will show the log in information that has been input-->
+        Welcome, <span id = "UserNameBadge"></span>
+    <p>
+    </body>
+<!--https://www.w3schools.com/js/js_validation.asp-->   
+<script>
+      //this gets the user input to be displayed by the code above.
+      var UserInfo = GetUserInput();
+      document.getElementById("UserNameBadge").innerHTML = UserInfo;
 
-    </p>
-</div>
-</body>
+</script>
 
 </html>

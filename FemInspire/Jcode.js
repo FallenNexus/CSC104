@@ -1,23 +1,22 @@
-//the array that controls the fuctions that make the start and stop buttons called in the html
-var arrInterval = new Array();
+//Sticky navbar code
+window.onscroll = function() {Navbar()};
 
-//starts countdown on click
-/*function startButtonClick(){
-    document.getElementById("btnStart").disabled = true;
-   document.getElementById("btnStop").disabled = false;
-    var countdownElem = document.getElementById("countdown");
-runTimer(countdownElem);}
+//Get the navbar
+var navbar = document.getElementById("navbar");
 
-//stops countdown on click
-function stopButtonClick(){
-   document.getElementById("btnStart").disabled = false;
-   document.getElementById("btnStop").disabled = true;
-   
-    for (counter = 0; counter < 11; counter++){
-        clearTimeout(arrInterval[counter]);
+//Offset position of the navbar
+var sticky = navbar.offsetTop;
+
+//Add the sticky class to the navbar when you reach its scroll position
+//Remove sticky when you leave the scroll position
+function Navbar(){
+    if (window.scrollY >= sticky) {
+        navbar.classList.add("sticky")
     }
-
-}*/
+    else {
+        navbar.classList.remove("sticky");
+    }
+}
 
 //this function asks for a first and last name, and badge number
 //the name needs to be less than 20 characters and the badge number needs to be 3 characters or less
