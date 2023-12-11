@@ -12,82 +12,9 @@
 </style>
 </head>
 <body> <!--End the last thing with the slashes to make these not weird-->
-
-    <!--Learned how to do this here: https://www.w3schools.com/css/-->
-    <style>
-        div.relative {
-            display: position;
-            margin-left: 40%;
-            margin-right: 50%;
-            }
-    </style>
-    
-    <!--Title-->
-    <h1>Welcome to FemInspire!</h1> <!--Title header shown on the page-->
-    
-    <!--Making the image behave-->
-    <div class="relative">
-        <img src="FemInspire Logo WIP 250.png" alt="FemInspire Logo"/> <!--Image on the page. alt is the image description like for screen readers-->
-    </div>
-    
-    <style>
-        body {
-          margin: 0;
-          font-size: 28px;
-          font-family: Arial, Helvetica, sans-serif;
-        }
-        
-        .header {
-          background-color: rgba(255, 255, 255, 0.5);
-          padding: 30px;
-          text-align: center;
-        }
-        
-        #navbar {
-          overflow: hidden;
-          background-color: SlateBlue;
-        }
-        
-        #navbar a {
-          float: left;
-          display: block;
-          background-color: DarkSlateBlue;
-          text-align: center;
-          padding: 14px 16px;
-          text-decoration: none;
-          font-size: 17px;
-        }
-        
-        #navbar a:hover {
-          background-color: DarkSlateBlue;
-          color: black;
-        }
-        
-        #navbar a.active {
-          background-color: #0497aa;
-          color: white;
-        }
-        
-        .content {
-          padding: 16px;
-        }
-        
-        .sticky {
-          position: fixed;
-          top: 0;
-          width: 100%;
-        }
-        
-        .sticky + .content {
-          padding-top: 60px;
-        }
-        </style>
-        </head>
-        <body>
-        
         <div class="header">
-          <h2>Scroll Down</h2>
-          <p>Scroll down to see the sticky effect.</p>
+          <h1>Welcome to FemInspire</h1>
+          <p>Here is where you will see your home feed</p>
         </div>
         
         <div id="navbar">
@@ -97,7 +24,20 @@
             <a href="MessagesPage.html">Messages</a>
             <a href="MentorshipPage.html">Mentorship</a>
         </div>
-        
+
+        <!--Learned how to do this here: https://www.w3schools.com/css/-->
+    <style>
+      div.relative {
+          display: position;
+          margin-left: 40%;
+          margin-right: 50%;
+          }
+  </style>
+  <!--Making the image behave-->
+  <div class="relative">
+      <img src="FemInspire Logo WIP 250.png" alt="FemInspire Logo"/> <!--Image on the page. alt is the image description like for screen readers-->
+  </div>
+
         <div class="content">
           <h3>Sticky Navigation Example</h3>
           <p>The navbar will stick to the top when you reach its scroll position.</p>
@@ -109,7 +49,8 @@
           <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
           <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
         </div>
-        
+
+  <!--Script for the sticky navbar to work-->
         <script>
         window.onscroll = function() {myFunction()};
         

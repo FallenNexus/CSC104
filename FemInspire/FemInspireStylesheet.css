@@ -13,85 +13,79 @@ body{
 /*The setting for the h1 text */
 h1{
   text-align: center;  
-  color: #623aff;
+  color: slateblue;
 }
 
 /*The setting for the h2 text */
 h2{
-    color: #ff0000a2;
+    color: blue;
 }
 
 /*The setting for the h3 text */
 h3{
-    color: #78baca;
+    color: green;
 }
 
 /*The setting for the p text (aka literally everything that isn't italicized or a header)*/
 p{
-    color: #ffffffc2;
-    font-size: larger;
+    color: white;
+    text-align: center;
+    font-size: normal;
 }
 
 /*The setting for the i text (aka everything italicized)*/
  i{
-    color: #0a696f;
+    color: darkslateblue;
     font-size: large;
     font-weight: 600;
  }  
-  /*code adapted from https://www.w3schools.com/css/css_navbar_horizontal.asp 
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: SlateBlue
-  }
-  
-  li {
-    float: left;
-  }
-  
- li a {
-    display: block;
-    color: white;
-    text-align: left;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-
-  li a:hover {
-    background-color: DarkSlateBlue;
-  } */
-
-  /* Style the navbar */
-#navbar {
-  overflow: hidden;
-  background-color: #333;
+ body {
+  margin: 0;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Navbar links */
+.header {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 30px;
+  text-align: center;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: SlateBlue;
+}
+
 #navbar a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  background-color: DarkSlateBlue;
   text-align: center;
-  padding: 14px;
+  padding: 14px 16px;
   text-decoration: none;
+  font-size: 17px;
 }
 
-/* Page content */
+#navbar a:hover {
+  background-color: DarkSlateBlue;
+  color: white;
+}
+
+#navbar a.active {
+  background-color: #0497aa;
+  color: white;
+}
+
 .content {
   padding: 16px;
 }
 
-/* The sticky class is added to the navbar with JS when it reaches its scroll position */
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
 }
 
-/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
   padding-top: 60px;
 }
