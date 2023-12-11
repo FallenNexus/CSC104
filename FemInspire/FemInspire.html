@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-    <!-- Hope Thoms 
-        CSC104-->
+<!-- Hope Thoms 
+    CSC104-->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,65 +9,58 @@
     <title>FemInspire</title>
     <link rel="stylesheet" href="FemInspireStylesheet.css">
     <link rel="JavaScript" href="Jcode.js">
-</style>
-</head>
-<body> <!--End the last thing with the slashes to make these not weird-->
-        <div class="header">
-          <h1>Welcome to FemInspire</h1>
-          <p>This is where you will see your home feed</p>
-        </div>
-        
-        <div id="navbar">
-            <a class="active" href="FemInspire.html">Home</a>
-            <a href="ProfilePage.html">Profile</a>
-            <a href="NotificationsPage.html">Notifications</a>
-            <a href="MessagesPage.html">Messages</a>
-            <a href="MentorshipPage.html">Mentorship</a>
-        </div>
 
-        <!--Learned how to do this here: https://www.w3schools.com/css/-->
     <style>
-      div.relative {
-          display: position;
-          margin-left: 40%;
-          margin-right: 50%;
-          }
-  </style>
-  <!--Making the image behave-->
-  <div class="relative">
-      <img src="FemInspire Logo WIP 250.png" alt="FemInspire Logo"/> <!--Image on the page. alt is the image description like for screen readers-->
-  </div>
+        div.relative {
+            margin-left: 40%;
+            margin-right: 50%;
+        }
+    </style>
 
-        <div class="content">
-          <h1>This is the H1</h1>
-          <h2>This is the H2</h2>
-          <h3>This is the H3</h3>
-          <i>This is the i</i>
-          <p>This is the p</p>
-          <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-          <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-          <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-          <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-          <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-          <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-          <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
-        </div>
+    <!-- Script for the sticky navbar to work -->
+    <script>
+        window.onscroll = function () {
+            myFunction();
+        };
 
-  <!--Script for the sticky navbar to work-->
-        <script>
-        window.onscroll = function() {myFunction()};
-        
         var navbar = document.getElementById("navbar");
         var sticky = navbar.offsetTop;
-        
+
         function myFunction() {
-          if (window.pageYOffset >= sticky) {
-            navbar.classList.add("sticky")
-          } else {
-            navbar.classList.remove("sticky");
-          }
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky");
+            } else {
+                navbar.classList.remove("sticky");
+            }
         }
-        </script>
-        
-        </body>
-        </html>
+    </script>
+</head>
+
+<body>
+    <!--End the last thing with the slashes to make these not weird-->
+    <div class="header">
+        <h1>Welcome to FemInspire</h1>
+        <p>This is where you will see your home feed</p>
+    </div>
+
+    <div id="navbar">
+        <a class="active" href="FemInspire.html">Home</a>
+        <a href="ProfilePage.html">Profile</a>
+        <a href="NotificationsPage.html">Notifications</a>
+        <a href="MessagesPage.html">Messages</a>
+        <a href="MentorshipPage.html">Mentorship</a>
+    </div>
+    <!--Learned how to do this here: https://www.w3schools.com/css/-->
+
+    <!--Making the image behave-->
+    <div class="relative">
+        <img src="FemInspire Logo WIP 250.png" alt="FemInspire Logo">
+        <!--Image on the page. alt is the image description like for screen readers-->
+    </div>
+
+    <div class="content">
+        <!-- Your content -->
+    </div>
+</body>
+
+</html>
