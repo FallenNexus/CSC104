@@ -8,93 +8,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FemInspire</title>
     <link rel="stylesheet" href="FemInspireStylesheet.css">
+    <link rel="JavaScript" href="Jcode.js">
 </style>
 </head>
 <body> <!--End the last thing with the slashes to make these not weird-->
-    <ul>
-        <li><a class="active" href="FemInspire.html">Home</a></li>
-        <li><a href="ProfilePage.html">Profile</a></li>
-        <li><a href="NotificationsPage.html">Notifications</a></li>
-        <li><a href="MessagesPage.html">Messages</a></li>
-        <li><a href="MentorshipPage.html">Mentorship</a></li>
-      </ul>
-      
-    <div class = "bgimage">
-        <div class="hero">
-    
-    <h1>Welcome to the FemInspire Profile Page!</h1> <!-- Title header shown on the page-->   
-    <img src="FemInspire Logo WIP 250.png" alt="FemInspire Logo" /> <!--Image on the page. alt is the image description like for screen readers-->
-    <br/> <!--br is a line break-->
-    <p>Insert text once I have figured out what to put here</p> <!--paragraph text shown on the page-->
-    <input type="button" value="Click me!" onclick="alert('You took demands from a computer... That is sad');" /> 
-     <!--Sticky navbar I learned how to make here: https://www.w3schools.com/howto/howto_js_navbar_sticky.asp-->
-     <div id="navbar">
-        <a href="FemInspire.html">Home</a>
-        <a href="ProfilePage.html">Profile</a>
-        <a href="NotificationsPage.html">Notifications</a>
-        <a href="MessagesPage.html">Messages</a>
-        <a href="MentorshipPage.html">Mentorship</a>
-    </div>
-    
-    <p>Welcome, log in below
-    </p> <!--paragraph text shown on the page-->
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <!--<form>
-        <label for="fname">First name:</label>
-        <br>
-        <input type="text" id="fname" name="fname" value="">
-        <br>
-        <label for="lname">Last name:</label>
-        <br>
-        <input type="text" id="lname" name="lname" value="">
-        <br>
-        <br>
-        <input type="submit" value="Submit">
-      </form>
-    -->
-    <p> <!--This will show the log in information that has been input-->
-        Welcome, <span id = "UserNameBadge"></span>
-    <p>
-    </body>
-<!--https://www.w3schools.com/js/js_validation.asp-->   
-<script>
-      //this gets the user input to be displayed by the code above.
-      var UserInfo = GetUserInput();
-      document.getElementById("UserNameBadge").innerHTML = UserInfo;
+        <div class="header">
+          <h1>Welcome to FemInspire</h1>
+          <p>This is where you will see your profile page</p>
+        </div>
+        
+        <div id="navbar">
+            <a href="FemInspire.html">Home</a>
+            <a class="active" href="ProfilePage.html">Profile</a>
+            <a href="NotificationsPage.html">Notifications</a>
+            <a href="MessagesPage.html">Messages</a>
+            <a href="MentorshipPage.html">Mentorship</a>
+        </div>
 
-</script>
+        <!--Learned how to do this here: https://www.w3schools.com/css/-->
+    <style>
+      div.relative {
+          display: position;
+          margin-left: 40%;
+          margin-right: 50%;
+          }
+  </style>
+  <!--Making the image behave-->
+  <div class="relative">
+      <img src="FemInspire Logo WIP 250.png" alt="FemInspire Logo"/> <!--Image on the page. alt is the image description like for screen readers-->
+  </div>
 
-</html>
+        <div class="content">
+          <p>The navbar will stick to the top when you reach its scroll position.</p>
+          <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+          <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+          <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+          <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+          <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+          <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+          <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+        </div>
+
+  <!--Script for the sticky navbar to work-->
+        <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+        </script>
+        
+        </body>
+        </html>

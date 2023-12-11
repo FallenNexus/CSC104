@@ -1,5 +1,4 @@
-/*The section applied to the whole page unless otherwise modified. Using the background blends to change the opacity since this is the only way I
-could get it to work.*/
+/*The section applied to the whole page unless otherwise modified. I used ChatGPT to help debug: https://chat.openai.com/share/696de629-f137-4e1c-9566-a5787dcedb5b*/
 body{
     position: static;
     background-image: url("FemInspire BG WIP.png");
@@ -18,24 +17,24 @@ h1{
 
 /*The setting for the h2 text */
 h2{
-    color: blue;
+    color: darkturquoise;
 }
 
 /*The setting for the h3 text */
 h3{
-    color: green;
+    color: mediumpurple;
 }
 
 /*The setting for the p text (aka literally everything that isn't italicized or a header)*/
 p{
-    color: white;
+    color: whitesmoke;
     text-align: center;
     font-size: normal;
 }
 
 /*The setting for the i text (aka everything italicized)*/
  i{
-    color: darkslateblue;
+    color: whitesmoke;
     font-size: large;
     font-weight: 600;
  }  
@@ -59,7 +58,8 @@ p{
 #navbar a {
   float: left;
   display: block;
-  background-color: DarkSlateBlue;
+  color: whitesmoke;
+  background-color: slateblue;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -67,12 +67,12 @@ p{
 }
 
 #navbar a:hover {
-  background-color: DarkSlateBlue;
+  background-color: rgb(0, 234, 238);
   color: white;
 }
 
 #navbar a.active {
-  background-color: #0497aa;
+  background-color: darkturquoise;
   color: white;
 }
 
