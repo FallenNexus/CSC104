@@ -12,14 +12,7 @@
 </style>
 </head>
 <body> <!--End the last thing with the slashes to make these not weird-->
-    <ul>
-        <li><a class="active" href="FemInspire.html">Home</a></li>
-        <li><a href="ProfilePage.html">Profile</a></li>
-        <li><a href="NotificationsPage.html">Notifications</a></li>
-        <li><a href="MessagesPage.html">Messages</a></li>
-        <li><a href="MentorshipPage.html">Mentorship</a></li>
-      </ul>
-    
+
     <!--Learned how to do this here: https://www.w3schools.com/css/-->
     <style>
         div.relative {
@@ -30,81 +23,107 @@
     </style>
     
     <!--Title-->
-    <h1>Welcome to FemInspire!</h1> <!--Title header shown on the page--> 
+    <h1>Welcome to FemInspire!</h1> <!--Title header shown on the page-->
     
     <!--Making the image behave-->
     <div class="relative">
         <img src="FemInspire Logo WIP 250.png" alt="FemInspire Logo"/> <!--Image on the page. alt is the image description like for screen readers-->
     </div>
     
-    <!--Sticky navbar I learned how to make here: https://www.w3schools.com/howto/howto_js_navbar_sticky.asp-->
-    <div id="navbar">
-        <a href="FemInspire.html">Home</a>
-        <a href="ProfilePage.html">Profile</a>
-        <a href="NotificationsPage.html">Notifications</a>
-        <a href="MessagesPage.html">Messages</a>
-        <a href="MentorshipPage.html">Mentorship</a>
-    </div>
-    
-    <p>Welcome, log in below
-    </p> <!--paragraph text shown on the page-->
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <!--<form>
-        <label for="fname">First name:</label>
-        <br>
-        <input type="text" id="fname" name="fname" value="">
-        <br>
-        <label for="lname">Last name:</label>
-        <br>
-        <input type="text" id="lname" name="lname" value="">
-        <br>
-        <br>
-        <input type="submit" value="Submit">
-      </form>
-    -->
-    <p> <!--This will show the log in information that has been input-->
-        Welcome, <span id = "UserNameBadge"></span>
-    <p>
-    </body>
-<!--https://www.w3schools.com/js/js_validation.asp-->   
-<script>
-      //this gets the user input to be displayed by the code above.
-      var UserInfo = GetUserInput();
-      document.getElementById("UserNameBadge").innerHTML = UserInfo;
-
-</script>
-
-</html>
+    <style>
+        body {
+          margin: 0;
+          font-size: 28px;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .header {
+          background-color: rgba(255, 255, 255, 0.5);
+          padding: 30px;
+          text-align: center;
+        }
+        
+        #navbar {
+          overflow: hidden;
+          background-color: SlateBlue;
+        }
+        
+        #navbar a {
+          float: left;
+          display: block;
+          background-color: DarkSlateBlue;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+        }
+        
+        #navbar a:hover {
+          background-color: DarkSlateBlue;
+          color: black;
+        }
+        
+        #navbar a.active {
+          background-color: #0497aa;
+          color: white;
+        }
+        
+        .content {
+          padding: 16px;
+        }
+        
+        .sticky {
+          position: fixed;
+          top: 0;
+          width: 100%;
+        }
+        
+        .sticky + .content {
+          padding-top: 60px;
+        }
+        </style>
+        </head>
+        <body>
+        
+        <div class="header">
+          <h2>Scroll Down</h2>
+          <p>Scroll down to see the sticky effect.</p>
+        </div>
+        
+        <div id="navbar">
+            <a class="active" href="FemInspire.html">Home</a>
+            <a href="ProfilePage.html">Profile</a>
+            <a href="NotificationsPage.html">Notifications</a>
+            <a href="MessagesPage.html">Messages</a>
+            <a href="MentorshipPage.html">Mentorship</a>
+        </div>
+        
+        <div class="content">
+          <h3>Sticky Navigation Example</h3>
+          <p>The navbar will stick to the top when you reach its scroll position.</p>
+          <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+          <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+          <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+          <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+          <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+          <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+          <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+        </div>
+        
+        <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+        </script>
+        
+        </body>
+        </html>
