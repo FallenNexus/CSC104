@@ -25,6 +25,11 @@ h3{
     color: mediumpurple;
 }
 
+/*The setting for the h3 text */
+h4{
+  color: grey;
+}
+
 /*The setting for the p text (aka literally everything that isn't italicized or a header)*/
 p{
     color: whitesmoke;
@@ -89,3 +94,9 @@ p{
 .sticky + .content {
   padding-top: 60px;
 }
+
+/*Learned how to do this here: https://www.w3schools.com/css/*/
+div.relative {
+  margin-left: 40%;
+  margin-right: 50%;
+  }
