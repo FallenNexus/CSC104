@@ -1,7 +1,7 @@
 /*The section applied to the whole page unless otherwise modified. I used ChatGPT to help debug: https://chat.openai.com/share/696de629-f137-4e1c-9566-a5787dcedb5b*/
 body{
     position: static;
-    background-image: url("FemInspire BG WIP.png");
+    background-image: url("FemInspireBGWIP.png");
     /*background-color: #0000007f;
     background-blend-mode: saturation;*/
     background-position: top;
