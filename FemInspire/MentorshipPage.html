@@ -48,21 +48,13 @@
         </div>
 
   <!--Script for the sticky navbar to work-->
-        <script>
-        window.onscroll = function() {Navbar()};
-        
-        var navbar = document.getElementById("navbar");
-        var sticky = navbar.offsetTop;
-        
-        function Navbar() {
-          if (window.pageYOffset >= sticky) {
-            navbar.classList.add("sticky")
-          } 
-          else {
-            navbar.classList.remove("sticky");
-          }
-        }
-        </script>
+  <script>
+    window.onscroll = function() {Navbar()};
+    
+    var navbar = document.getElementById("navbar");
+    var sticky = navbar.offsetTop;
+  
+    </script>
         
         </body>
         </html>
