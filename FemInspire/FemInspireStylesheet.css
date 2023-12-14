@@ -49,17 +49,20 @@ p{
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/*header that appears on the top of the page that is slightly grey and transparent*/
 .header {
   background-color: rgba(255, 255, 255, 0.5);
   padding: 30px;
   text-align: center;
 }
 
+/*Navbar major color*/
 #navbar {
   overflow: hidden;
   background-color: SlateBlue;
 }
 
+/*Navbar major color*/
 #navbar a {
   float: left;
   display: block;
@@ -71,26 +74,31 @@ p{
   font-size: 17px;
 }
 
+/*Navbar hover color*/
 #navbar a:hover {
   background-color: rgb(0, 234, 238);
   color: white;
 }
 
+/*Navbar active page color*/
 #navbar a.active {
   background-color: darkturquoise;
   color: white;
 }
 
+/*space on the navbar*/
 .content {
   padding: 16px;
 }
 
+/* Making the navbr sticky */
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
 }
 
+/* Spacing the navbar and content */
 .sticky + .content {
   padding-top: 60px;
 }
