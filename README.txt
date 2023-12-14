@@ -2,8 +2,11 @@
 File List:
 
 FemInspire Folder
-  FemInspire BG WIP.png
-  FemInspire Logo WIP 250.png
+  DummyChat.png
+  DummyPost.png
+  DummyProfile.png
+  FemInspireBGWIP.png
+  FemInspireLogoWIP250.png
   FemInspire Logo WIP.png
   FemInspire.html
   FemInspireStylesheet.css
